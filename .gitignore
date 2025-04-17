@@ -1,0 +1,64 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+env/
+ENV/
+lib/
+lib64/
+include/
+Scripts/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller specific
+*.spec
+version_info.txt
+# Note: You might WANT to commit your .spec file if it's customized
+# Comment out the line above if you want to track your .spec file
+
+# Build artifacts
+**/pyinstaller/
+**/pyinstaller.*
+
+# Installer logs
+**/pyinstaller-build.*
+**/pyinstaller-bundle.*
+
+# Log files
+logs/
+*.log
+
+# Configuration - Sensitive info (ensure the committed config.ini is a template)
+# config.ini # Uncomment if you want to completely ignore config.ini
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db 
